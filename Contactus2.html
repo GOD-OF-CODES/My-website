@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj ki Website | Contact Us</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        outline: none;
+    }
+    body{
+        background: url(https://raw.githubusercontent.com/codingmarket07/Responsive-Contact-us-form/0f48f0a0539bf022b31c93d027f00dd7ab3bfaf7/bg.jpg) no-repeat top center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .wrapper{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .contact-form{
+        max-width: 550px;
+        margin: 0px auto;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 30px;
+        border-radius: 5px;
+        display: flex;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    }
+    .input-fields{
+        display: flex;
+        flex-direction: column;
+        margin-right: 4%;
+    }
+    .input-fields,
+    .msg{
+        float: none;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="contact-form">
+            <div class="input-fields">
+                <input type="text" class="input" placeholder="Name">
+                <input type="text" class="input" placeholder="E-mail address">
+                <input type="text" class="input" placeholder="Phone">
+                <input type="text" class="input" placeholder="Subject">
+            </div>
+            <div class="msg">
+                <textarea placeholder="Message"></textarea>
+                <div class="btn">Send</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

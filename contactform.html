@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 40px 40px;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        .form{
+            background-color: #f2f2f2;
+            padding: 20px 20px 20px 20px;
+            border: 1px solid lightgrey;
+            border-radius: 4px;
+        }
+
+        input, textarea{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"],
+        input[type="reset"]{
+            background-color: lightseagreen;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        img{
+            width: 100%;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" class="form">
+    <section>
+        <img src="contactus.img" alt="Contact Us very nice image. Hope it works.">
+    </section>
+    
+    <p>
+        Name:- <input type="text" required placeholder="E.g- Raj Vardhan Singh">
+    </p>
+    <p>
+        E-mail:- <input type="email" required placeholder="E.g- Raj@example.com">
+    </p>
+    <p>
+        Contact Number:- <input type="number" required placeholder="E.g- 0000000000">
+    </p>
+    <p>
+        Message:- <textarea  cols="30" rows="10" >
+             
+         </textarea>
+    </p>
+    <p>
+    
+         <input type="submit"></p>
+         <p>
+         <input type="reset"></p>
+    
+
+</form>
+</body>
+</html>

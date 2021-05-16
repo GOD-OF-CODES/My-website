@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 15px 30px;
+        font-size: 17px;
+        padding: 8px;
+        background-color: black;
+    }
+    .container{
+        background-color: #f2f2f2;
+        padding: 5px 20px 15px 20px ;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+    }
+    .why{
+        text-align:start;
+    }
+    *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: rgba(10, 109, 155, 0.616);
+            color: white;
+            
+            text-align: center;
+            padding: 40px;
+            font-size: larger;
+        }
+        nav a{
+            padding: 20px;
+            color: white;
+            text-decoration: none;
+            float: left;
+            text-align: left;
+        }
+        nav{
+            background-color: black;
+            overflow: hidden;
+        }
+        .huhu{
+            font-size: larger;
+            font-weight: bolder;
+        }
+</style>
+<body>
+    <header>
+        <h1>Raj Ki Website</h1>
+    </header>
+    <nav>
+        <a href="home.html" class="haha" >Home</a>
+        <a href="Courses.html" class="hehe">Courses</a>
+        <a href="CollegeReviews.html" >College Reviews</a>
+        <a href="studymaterial.html" >Study Material</a> 
+        <a href="payment.html" class="huhu">Payment Form</a>
+    </nav>
+    <form action="" class="container">
+        <h1>Payment Form</h1>
+        <h2>Contact Information</h2>
+        <p>Name: <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            Male <input type="radio" name="gender" id="male" required>
+            Female <input type="radio" name="gender" id="female" required>
+        </p>
+        </fieldset>
+        <p class="why">
+            Address <textarea name="address" id="address" cols="50" rows="10" required></textarea>
+        </p>
+        <p>
+            E-mail <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            Pincode <input type="number" name="pincode" id="pincode" required>
+        </p>
+        <h2>Payment Information</h2>
+        <p>
+            Card Type 
+            <select name="card_type" id="card_type" required>
+                <option value="">--Select a card type-- </option>
+                <option value="visa">visa</option>
+                <option value="rupay">rupay</option>
+                <option value="credit_card">Credit card</option>
+            </select>
+        </p>
+        <p>
+            Card Number <input type="number" name="card_number" id="card_number" required>
+        </p>
+        <p>
+            Expiration Date <input type="date" name="expiration_date" id="expiration_date" required>
+        </p>
+        <p>CVV
+            <input type="password" name="cvv" id="cvv" required>
+        </p>
+        <input type="submit" value="Pay now " required>
+    </form>
+</body>
+</html>

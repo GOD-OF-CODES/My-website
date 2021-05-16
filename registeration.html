@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj ki Website | Registration Page </title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgba(0, 0, 139, 0.534);
+            margin-left: 500px;
+            margin-right: 500px;
+            margin-top: 50px;
+            text-align: center; 
+            padding: 60px; 
+        }
+        .form{
+            background-color: #f2f2f2;
+            border: 2px solid lightgray;
+            border-radius: 10px;
+        }
+        input{
+            width: 80%;
+           border: 2px solid #ccc;
+           border-radius: 4px;
+           padding: 10px;
+        }
+        .hi{
+            width: 40%;
+            
+        }
+        input[type="submit"]{
+            background-color: lime;
+            color: white;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+        input[type="checkbox"]{
+            width: initial;
+        }
+        a{
+            text-decoration: none   ;
+        }
+    </style>
+</head>
+<body>
+    <form action="home.html" class="form">
+    <h1>Register</h1>
+    <h4>Create your account. It's free.</h4>
+    <input type="text" placeholder="First Name" required class="hi"> <input type="text" placeholder="Last Name" required class="hi"><br><br>
+    <input type="email" placeholder="E-mail" required><br><br>
+    <input type="password" placeholder="Password" required><br><br>
+    <input type="password" placeholder="Confirm Password" required><br><br>
+    <input type="checkbox" required> I accept the <a href="Privacypolicy.html" target="_blank">Terms of Use</a> and <a href="Termsofuse.html" target="_blank">Privacy Policy</a><br><br>
+    <input type="submit" value="Register Now">
+</form>
+</body>
+</html>
